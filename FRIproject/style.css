@@ -30,7 +30,7 @@ h1{
     align-items: center;
     flex-direction: column;
 }
-.cl1,.cl2,.cl3{
+.cla1,.cla2,.cla3{
     color:white ;
 }
 .about-h1{
@@ -73,4 +73,52 @@ h1{
 }
 .item{
     padding: 40px;
+}
+.p-head{
+    text-align: center;
+}
+
+input{
+    display: block;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.body3{
+    background-size: cover;
+   background-position: center; 
+   height:60vh;
+   background-repeat: no-repeat;
+   background-image: url("./download\ \(1\).jpeg");
+   width:100%; 
+   text-align:center;
+ 
+   
+}
+.form-flex{
+    display:flex;
+}
+strong{
+    text-align: center
+}
+.contact{
+    text-align: center;
+}
+input[type="text"],input[type="email"]{
+    margin: 0.8rem;
+}
+input,textarea{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+
+    margin-bottom: 15px;
+    
+}
+.form{
+    display:flex;
+    justify-content: center;flex-direction: column;
+    align-items: center;
+
 }
