@@ -103,6 +103,14 @@ input{
  
    
 }
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    height: 8vh;
+}
+
 .form-flex{
     display:flex;
 }
@@ -216,3 +224,6 @@ h1{
 p{
     font-size: 32px;
 }  
+.space{
+    margin-right: 1rem;
+}

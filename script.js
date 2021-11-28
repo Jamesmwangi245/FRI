@@ -7,15 +7,28 @@ if($('.textDesign').on('click', function(){
     $('.textDesign').hide();
     $('.imgDesign').show();
 }))
+
+
+
+
 $('.textDevelopment').hide();
 if($('.imgDevelopment').on('click', function(){
     $('.textDevelopment').show();
     $('.imgDevelopment').hide();
 }));
-if($('.textDevelopment').on('click', function(){
-    $('.textDevelopment').hide();
-    $('.imgDevelopment').show();
-}))
+// if($('.imgDevelopment').on('click', function(){
+//     $('.textDevelopment').show();
+//     $('.imgDevelopment').hide();
+// }))
+$('.textmanagement').hide();
+if($('.imgmanagement').on('click', function(){
+    $('.textmanagement').show();
+    $('.imgmanagement').hide();
+}));
+// if($('.textmanagement').on('click', function(){
+//     $('.textmanagement').hide();
+//     $('.imgmanagement').show();
+// }))
 
 
 
